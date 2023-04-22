@@ -85,11 +85,13 @@ form{
     border-color: #FCAF02;
     width: 100%;
     font-size: 32px;
+    text-indent: 50px;
+    padding-left: 0;
  
   
   }
   form input:focus {
-    padding-left: 50px;
+
     outline: none;
     border-color: none;
 }
@@ -98,7 +100,7 @@ form input:focus::placeholder {
 
 }
   form input::placeholder{
-    padding-left: 50px;
+
     color: #FCAF02;
     font-size: 28px;
   }
