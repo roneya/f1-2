@@ -75,7 +75,7 @@ form{
   form input[type="email"] {
     display: inline-block;
     height: 82px;
-    width: 200px;
+
     box-sizing: border-box;
     padding: 5px;
     border-radius: 200px;
@@ -84,7 +84,19 @@ form{
     margin-bottom: 50px;
     border-color: #FCAF02;
     width: 100%;
+    font-size: 32px;
+ 
+  
   }
+  form input:focus {
+    padding-left: 50px;
+    outline: none;
+    border-color: none;
+}
+form input:focus::placeholder {
+  opacity: 0;
+
+}
   form input::placeholder{
     padding-left: 50px;
     color: #FCAF02;
@@ -100,7 +112,7 @@ form{
   
   .row {
     display: flex;
-    column-gap: 100px;
+    column-gap: 80px;
   }
 
   .table-container {
@@ -128,6 +140,14 @@ form{
 
     font-weight: bold;
   }
+  th,tfoot td{
+    padding-left: 40px;
+    background-color: #FCAF02;
+    color: black;
+    font-weight: 600;
+    border: 1.5px solid black;
+
+}
   
   
  
