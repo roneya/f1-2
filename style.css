@@ -87,6 +87,7 @@ form{
     font-size: 32px;
     text-indent: 50px;
     padding-left: 0;
+    box-shadow: #FCAF02;
  
   
   }
@@ -128,26 +129,34 @@ form input:focus::placeholder {
     border-collapse: collapse;
     width: 80%;
   }
+
+
   
   th, td {
-    border: 1px solid #FCAF02;
-    text-align: left;
-    padding: 8px;
+    /* border: 1px solid #FCAF02; */
+    text-align:left;
+    padding-left: 60px;
     color: #FCAF02;
     font-size: 28px;
     font-weight: none;
   }
+  td{
+    border-right: 1px solid #FCAF02;
+    border-left: 1px solid #FCAF02;
+  }
+
   
   th {
 
     font-weight: bold;
   }
+  
   th,tfoot td{
-    padding-left: 40px;
+    padding-left: 60px;
     background-color: #FCAF02;
     color: black;
     font-weight: 600;
-    border: 1.5px solid black;
+    border: 1px solid black;
 
 }
   
